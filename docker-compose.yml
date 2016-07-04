@@ -1,0 +1,8 @@
+version: '2'
+services:
+ nagios:
+  image: jordan/icinga2:latest
+  ports:
+  - "80:80"
+  container_name: icinga2
+
